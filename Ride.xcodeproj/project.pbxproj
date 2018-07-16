@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F35FCFCB7E92931CDAF7442 /* Pods_Ride.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7048A027B3602559C73E2 /* Pods_Ride.framework */; };
+		8A3E79F120FAEC6400FC60B5 /* CreateRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E79F020FAEC6400FC60B5 /* CreateRideViewController.swift */; };
+		8A3E79F820FBE75900FC60B5 /* KBYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E79F720FBE75900FC60B5 /* KBYearPicker.swift */; };
 		8A50C4CE20E856D2005862E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50C4CD20E856D2005862E1 /* AppDelegate.swift */; };
-		8A50C4D020E856D2005862E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50C4CF20E856D2005862E1 /* ViewController.swift */; };
+		8A50C4D020E856D2005862E1 /* RideListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50C4CF20E856D2005862E1 /* RideListController.swift */; };
 		8A50C4D320E856D2005862E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50C4D120E856D2005862E1 /* Main.storyboard */; };
-		8A50C4D620E856D2005862E1 /* Ride.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A50C4D420E856D2005862E1 /* Ride.xcdatamodeld */; };
 		8A50C4D820E856D2005862E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A50C4D720E856D2005862E1 /* Assets.xcassets */; };
 		8A50C4DB20E856D2005862E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A50C4D920E856D2005862E1 /* LaunchScreen.storyboard */; };
+		8ADABDB320ED679A00BBBE4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8ADABDB220ED679A00BBBE4E /* GoogleService-Info.plist */; };
+		8ADABDB520ED687100BBBE4E /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADABDB420ED687100BBBE4E /* RideViewController.swift */; };
+		8ADABDB720ED68EA00BBBE4E /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADABDB620ED68EA00BBBE4E /* Ride.swift */; };
+		8ADABDB920ED698D00BBBE4E /* DatabaseAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADABDB820ED698D00BBBE4E /* DatabaseAdaptor.swift */; };
+		8ADABDBB20EDD4EC00BBBE4E /* RideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADABDBA20EDD4EC00BBBE4E /* RideCell.swift */; };
+		8ADEA04D20F028C100E1CB06 /* Maintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADEA04C20F028C100E1CB06 /* Maintenance.swift */; };
+		8AE4512920EE62930009108B /* RideLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4512820EE62930009108B /* RideLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12D13F589435FFDE8799E998 /* Pods-Ride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ride/Pods-Ride.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3E79F020FAEC6400FC60B5 /* CreateRideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRideViewController.swift; sourceTree = "<group>"; };
+		8A3E79F720FBE75900FC60B5 /* KBYearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBYearPicker.swift; sourceTree = "<group>"; };
 		8A50C4CA20E856D2005862E1 /* Ride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A50C4CD20E856D2005862E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A50C4CF20E856D2005862E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A50C4CF20E856D2005862E1 /* RideListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideListController.swift; sourceTree = "<group>"; };
 		8A50C4D220E856D2005862E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A50C4D520E856D2005862E1 /* Ride.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ride.xcdatamodel; sourceTree = "<group>"; };
 		8A50C4D720E856D2005862E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A50C4DA20E856D2005862E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A50C4DC20E856D2005862E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADABDB220ED679A00BBBE4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8ADABDB420ED687100BBBE4E /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
+		8ADABDB620ED68EA00BBBE4E /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		8ADABDB820ED698D00BBBE4E /* DatabaseAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseAdaptor.swift; sourceTree = "<group>"; };
+		8ADABDBA20EDD4EC00BBBE4E /* RideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCell.swift; sourceTree = "<group>"; };
+		8ADEA04C20F028C100E1CB06 /* Maintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintenance.swift; sourceTree = "<group>"; };
+		8AE4512820EE62930009108B /* RideLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideLayout.swift; sourceTree = "<group>"; };
+		A3F7048A027B3602559C73E2 /* Pods_Ride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CEDA9A27D24F20C4423D2A /* Pods-Ride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ride.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ride/Pods-Ride.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F35FCFCB7E92931CDAF7442 /* Pods_Ride.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0252B5968E5DAC26A05FBB73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12D13F589435FFDE8799E998 /* Pods-Ride.debug.xcconfig */,
+				A7CEDA9A27D24F20C4423D2A /* Pods-Ride.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		058C2CC342AC1589165213EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7048A027B3602559C73E2 /* Pods_Ride.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A3E79F220FAEC8400FC60B5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A50C4CF20E856D2005862E1 /* RideListController.swift */,
+				8ADABDB420ED687100BBBE4E /* RideViewController.swift */,
+				8A3E79F020FAEC6400FC60B5 /* CreateRideViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8A3E79F320FAEC9300FC60B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ADABDB620ED68EA00BBBE4E /* Ride.swift */,
+				8ADEA04C20F028C100E1CB06 /* Maintenance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A3E79F420FAECA500FC60B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8A50C4D120E856D2005862E1 /* Main.storyboard */,
+				8A50C4D920E856D2005862E1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8A3E79F520FAECB100FC60B5 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8ADABDB220ED679A00BBBE4E /* GoogleService-Info.plist */,
+				8A50C4DC20E856D2005862E1 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8A3E79F620FAECC900FC60B5 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8ADABDBA20EDD4EC00BBBE4E /* RideCell.swift */,
+				8AE4512820EE62930009108B /* RideLayout.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
 		8A50C4C120E856D2005862E1 = {
 			isa = PBXGroup;
 			children = (
 				8A50C4CC20E856D2005862E1 /* Ride */,
 				8A50C4CB20E856D2005862E1 /* Products */,
+				0252B5968E5DAC26A05FBB73 /* Pods */,
+				058C2CC342AC1589165213EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +143,14 @@
 			isa = PBXGroup;
 			children = (
 				8A50C4CD20E856D2005862E1 /* AppDelegate.swift */,
-				8A50C4CF20E856D2005862E1 /* ViewController.swift */,
-				8A50C4D120E856D2005862E1 /* Main.storyboard */,
+				8ADABDB820ED698D00BBBE4E /* DatabaseAdaptor.swift */,
 				8A50C4D720E856D2005862E1 /* Assets.xcassets */,
-				8A50C4D920E856D2005862E1 /* LaunchScreen.storyboard */,
-				8A50C4DC20E856D2005862E1 /* Info.plist */,
-				8A50C4D420E856D2005862E1 /* Ride.xcdatamodeld */,
+				8A3E79F520FAECB100FC60B5 /* Configuration */,
+				8A3E79F320FAEC9300FC60B5 /* Models */,
+				8A3E79F420FAECA500FC60B5 /* Storyboards */,
+				8A3E79F620FAECC900FC60B5 /* UICollectionView */,
+				8A3E79F220FAEC8400FC60B5 /* View Controllers */,
+				8A3E79F720FBE75900FC60B5 /* KBYearPicker.swift */,
 			);
 			path = Ride;
 			sourceTree = "<group>";
@@ -74,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A50C4DF20E856D2005862E1 /* Build configuration list for PBXNativeTarget "Ride" */;
 			buildPhases = (
+				3E07608158ED3D77BA26B847 /* [CP] Check Pods Manifest.lock */,
 				8A50C4C620E856D2005862E1 /* Sources */,
 				8A50C4C720E856D2005862E1 /* Frameworks */,
 				8A50C4C820E856D2005862E1 /* Resources */,
+				DC6C6D712B86F622C6A0414D /* [CP] Embed Pods Frameworks */,
+				68FF16D04CF8DD704B376F15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A50C4DB20E856D2005862E1 /* LaunchScreen.storyboard in Resources */,
+				8ADABDB320ED679A00BBBE4E /* GoogleService-Info.plist in Resources */,
 				8A50C4D820E856D2005862E1 /* Assets.xcassets in Resources */,
 				8A50C4D320E856D2005862E1 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +226,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E07608158ED3D77BA26B847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ride-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FF16D04CF8DD704B376F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6C6D712B86F622C6A0414D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ride/Pods-Ride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A50C4C620E856D2005862E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A50C4D020E856D2005862E1 /* ViewController.swift in Sources */,
+				8AE4512920EE62930009108B /* RideLayout.swift in Sources */,
+				8A50C4D020E856D2005862E1 /* RideListController.swift in Sources */,
+				8ADABDBB20EDD4EC00BBBE4E /* RideCell.swift in Sources */,
+				8A3E79F120FAEC6400FC60B5 /* CreateRideViewController.swift in Sources */,
+				8ADABDB720ED68EA00BBBE4E /* Ride.swift in Sources */,
 				8A50C4CE20E856D2005862E1 /* AppDelegate.swift in Sources */,
-				8A50C4D620E856D2005862E1 /* Ride.xcdatamodeld in Sources */,
+				8ADABDB520ED687100BBBE4E /* RideViewController.swift in Sources */,
+				8ADABDB920ED698D00BBBE4E /* DatabaseAdaptor.swift in Sources */,
+				8ADEA04D20F028C100E1CB06 /* Maintenance.swift in Sources */,
+				8A3E79F820FBE75900FC60B5 /* KBYearPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +439,14 @@
 		};
 		8A50C4E020E856D2005862E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D13F589435FFDE8799E998 /* Pods-Ride.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JMQ9Y3A8K6;
-				INFOPLIST_FILE = Ride/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ride/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = er2.Ride;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keaton.Ride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +455,14 @@
 		};
 		8A50C4E120E856D2005862E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CEDA9A27D24F20C4423D2A /* Pods-Ride.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JMQ9Y3A8K6;
-				INFOPLIST_FILE = Ride/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ride/Configuration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = er2.Ride;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keaton.Ride;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,19 +491,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8A50C4D420E856D2005862E1 /* Ride.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8A50C4D520E856D2005862E1 /* Ride.xcdatamodel */,
-			);
-			currentVersion = 8A50C4D520E856D2005862E1 /* Ride.xcdatamodel */;
-			path = Ride.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8A50C4C220E856D2005862E1 /* Project object */;
 }
